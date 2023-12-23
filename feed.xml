@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Fiulo.com</title>
+    <link href="https://fiulo.com/feed.xml" rel="self" />
+    <link href="https://fiulo.com" />
+    <updated>2023-12-23T13:37:50+00:00</updated>
+    <author>
+        <name>Fiulo</name>
+    </author>
+    <id>https://fiulo.com</id>
+
+    <entry>
+        <title>About Me</title>
+        <author>
+            <name>Fiulo</name>
+        </author>
+        <link href="https://fiulo.com/about.html"/>
+        <id>https://fiulo.com/about.html</id>
+
+        <updated>2023-12-23T13:37:50+00:00</updated>
+            <summary>
+                <![CDATA[
+                    Social Media [Youtube] [TikTok] [Instagram] [X(Twitter)] [Tumblr] [Threads] [Bluesky] [Mastadon] Blogs [Main] [Fiction] [Comics] [Recipes] Bio Hey there! I’m a content creator and storyteller, whose&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><strong>Social Media</strong></p>
+<p>[<a href="http://youtube.com/channel/@fiulo">Youtube</a>]  [<a href="http://www.tiktok.com/@fiulo">TikTok</a>]  [<a href="http://www.instagram.com/mr_fiulo/">Instagram</a>]  [<a href="http://x.com/MrFiulo">X(Twitter)</a>]  [<a href="http://www.tumblr.com/fiulo">Tumblr</a>]  [<a href="http://www.threads.net/@mr_fiulo">Threads</a>]  [<a href="https://bsky.app/profile/fiulo.bsky.social">Bluesky</a>] [<a href="http://mastodon.social/@fiulo">Mastadon</a>]</p>
+<p><strong>Blogs</strong></p>
+<p>[<a href="https://blog.fiulo.com/">Main</a>]   [<a href="https://recipes.fiulo.com/">Fiction</a>] [<a href="https://comics.fiulo.com/">Comics</a>] [<a href="https://recipes.fiulo.com/">Recipes</a>] </p>
+<p><strong>Bio</strong></p>
+<p>Hey there! I’m a content creator and storyteller, whose mission is to unleash the power of AI to craft and share wild, mind-blowing narratives that leave the world in awe. I’m all about exploring new frontiers, pushing the boundaries of technology like a boss, and showing the world what AI can really do in the realm of creative media.</p>
+<p>So if you’re ready for a thrill ride, come take a look at my huge collection of artworks and stories. There’s bound to be something you’ll love. We’ll explore the limits of storytelling, dabble in some generative art, and get our hands dirty with artificial intelligence. And with my love for all things vehicles, automation, and innovation, along with my passion for languages and learning, you can bet we’ll have a hell of a time. Let’s hit the road and discover some new stuff together!</p>
+<p>And hey, thanks to the power of AI and online dictionaries, I can chat your ear off in more than 100 languages. Boom! 💥</p>
+
+            ]]>
+        </content>
+    </entry>
+</feed>
