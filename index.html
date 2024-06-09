@@ -67,6 +67,9 @@
       margin-bottom: 10px;
       transition: background-color 0.2s ease;
       border-bottom: none !important;
+      display: flex;
+      align-items: center;
+      height: 50px; /* Adjust height as needed */
     }
 
     .collection a.collection-item:hover {
@@ -76,6 +79,8 @@
 
     .collection .material-icons {
       margin-right: 10px;
+      display: flex;
+      align-items: center;
     }
 
     footer {
@@ -186,7 +191,7 @@
 
     <div class="scroll-down">
       <i class="material-icons">keyboard_arrow_down</i>
-      <span>Find my social media links and projects below!</span>
+<!--      <span>Find my social media links and projects below!</span> -->
     </div>
 
     <h2 class="section-title">Find Me Online</h2>
@@ -236,6 +241,16 @@
     // Initialize Materialize components
     $(document).ready(function(){
       $('.sidenav').sidenav();
+    });
+
+    // Hide the scroll-down arrow on scroll
+    window.addEventListener('scroll', function() {
+      let scrollDown = document.querySelector('.scroll-down');
+      if (window.scrollY > 0) {
+        scrollDown.style.display = 'none';
+      } else {
+        scrollDown.style.display = 'block'; // Show it again when scrolled to the top
+      }
     });
   </script>
 </body>
