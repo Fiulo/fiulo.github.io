@@ -1,53 +1,65 @@
-<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Error 404 - Fiulo.com</title><meta name="robots" content="noindex, follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="alternate" type="application/atom+xml" href="https://fiulo.com/feed.xml"><link rel="alternate" type="application/json" href="https://fiulo.com/feed.json"><meta property="og:title" content="Fiulo.com"><meta property="og:site_name" content="Fiulo.com"><meta property="og:description" content="Content Creator & Storyteller - Leveraging the power of AI tools to tell stories to the world. Join me on this exciting journey."><meta property="og:url" content="https://fiulo.com/"><meta property="og:type" content="website"><link rel="stylesheet" href="https://fiulo.com/assets/css/style.css?v=7756e0b3889ff6ae9994488148935008"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Fiulo.com","url":"https://fiulo.com/"}</script><style>@media (prefers-color-scheme: dark) {
-                    [class*="tag-"] {
-                        --badge-color-text: var(--black);
-                    } 
-                }</style><noscript><style>img[loading] {
-                    opacity: 1;
-                }
-                .changelog::before {
-                    transform: scaleY(1);
-                }</style></noscript></head><body><header class="header"><a class="logo" href="https://fiulo.com/">Fiulo.com</a></header><main class="wrapper page page--error"><div class="hero hero--reverse"><div class="hero__left"><h1 class="page--error__title">404</h1><h2>Ooops, something went wrong!</h2><p>The page you were looking for appears to have been moved, deleted or does not exist. You could go back to where you were or head straight to our home page.</p><p><a href="https://fiulo.com/" class="btn">Go Home</a></p></div></div></main><footer class="footer"><div class="wrapper"><a class="logo" href="https://fiulo.com/">Fiulo.com</a><div class="footer__copyright"><p>© 2019 - 2024 www.fiulo.com - All Rights Reserved.</p></div></div><button onclick="backToTopFunction()" id="backToTop" class="footer__bttop" aria-label="Back to top" title="Back to top"><svg width="24" height="24"><use xlink:href="https://fiulo.com/assets/svg/svg-map.svg#move-up"/></svg></button></footer><script defer="defer" src="https://fiulo.com/assets/js/scripts.min.js?v=56b9b88d054083db43157b8372a3c097"></script><script>var observer;
-      function initializeObserver() {
-         if ('IntersectionObserver' in window) { 
-            observer = new IntersectionObserver((entries) => { 
-               entries.forEach((entry, index) => {
-                  if (entry.isIntersecting) {
-                     setTimeout(() => {
-                        entry.target.classList.add('animate-border');
-                     }, index * 500);
-                  }
-               });
-            });
-         }
-      }
-      function observeElements() {
-         if ('IntersectionObserver' in window) {
-            document.querySelectorAll('.changelog:not(.observed)').forEach(article => {
-               article.classList.add('observed'); 
-               observer.observe(article);
-            });
-         } else {
-            document.querySelectorAll('.changelog').forEach(article => {
-               article.classList.add('animate-border');
-            });
-         }
-      }
-      document.addEventListener("DOMContentLoaded", function() {
-         initializeObserver();
-         observeElements();
-      });</script><script>window.publiiThemeMenuConfig = { mobileMenuMode: 'sidebar', animationSpeed: 300, submenuWidth: 'auto', doubleClickTime: 500, mobileMenuExpandableSubmenus: true, relatedContainerForOverlayMenuSelector: '.navbar', };</script><script>function publiiDetectLoadedImages () {
-         var images = document.querySelectorAll('img[loading]:not(.is-loaded)');
-         for (var i = 0; i < images.length; i++) {
-            if (images[i].complete) {
-               images[i].classList.add('is-loaded');
-               images[i].parentNode.classList.remove('is-img-loading');
-            } else {
-               images[i].addEventListener('load', function () {
-                  this.classList.add('is-loaded');
-                  this.parentNode.classList.remove('is-img-loading');
-               }, false);
-            }
-         }
-      }
-      publiiDetectLoadedImages();</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #212121;
+      color: #e0e0e0;
+      overflow-x: hidden; /* Prevent horizontal scrollbar */
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .error-message {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .error-description {
+      text-align: center;
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      background-color: #424242;
+      color: #e0e0e0;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.5em;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #5d5d5d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="error-message">
+      <i class="material-icons" style="font-size: 4em;">error</i>
+      <h2>404 - Page Not Found</h2>
+    </div>
+    <div class="error-description">
+      <p>Sorry, the page you were looking for could not be found. It's possible that the page has been moved or deleted.</p>
+    </div>
+    <div class="button-container">
+      <a href="https://fiulo.com" class="button">Return to Home Page</a>
+    </div>
+  </div>
+</body>
+</html>

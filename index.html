@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fiulo's Portfolio</title>
+  <meta name="description" content="Fiulo's portfolio, featuring AI storytelling, digital art, and multilingual communication.">
+  <meta name="keywords" content="AI storytelling, digital art, multilingual communication, portfolio">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
@@ -164,23 +166,23 @@
 <body>
   <nav>
     <div class="nav-wrapper">
-      <a href="index.html" class="brand-logo center">Fiulo</a>
+      <a href="#home" class="brand-logo center">Fiulo</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
   <ul id="slide-out" class="sidenav">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About Me</a></li>
-    <li><a href="contact.html">Contact</a></li>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
 
-  <div class="container">
+  <div id="home" class="container">
     <div class="profile-image">
       <a href="mooncirclebrighter.webp" data-lightbox="profile">
         <img src="mooncirclebrighter.webp" alt="Profile Picture">
@@ -191,7 +193,7 @@
 
     <div class="scroll-down">
       <i class="material-icons">keyboard_arrow_down</i>
-<!--      <span>Find my social media links and projects below!</span> -->
+      <span>Find my social media links and projects below!</span>
     </div>
 
     <h2 class="section-title">Find Me Online</h2>
@@ -199,13 +201,13 @@
     <section class="social-media">
       <ul class="collection">
         <li><a href="http://youtube.com/channel/@fiulo" class="collection-item"><i class="material-icons">play_circle_filled</i>YouTube</a></li>
-        <a href="http://www.tiktok.com/@fiulo" class="collection-item"><i class="material-icons">music_note</i>TikTok</a></li>
-        <a href="http://www.instagram.com/mr_fiulo/" class="collection-item"><i class="material-icons">photo_camera</i>Instagram</a></li>
-        <a href="http://x.com/MrFiulo" class="collection-item"><i class="material-icons">flutter_dash</i>X (Twitter)</a></li>
-        <a href="http://www.tumblr.com/fiulo" class="collection-item"><i class="material-icons">text_snippet</i>Tumblr</a></li>
-        <a href="http://www.threads.net/@mr_fiulo" class="collection-item"><i class="material-icons">forum</i>Threads</a></li>
-        <a href="https://bsky.app/profile/fiulo.bsky.social" class="collection-item"><i class="material-icons">cloud</i>Bluesky</a></li>
-        <a href="http://mastodon.social/@fiulo" class="collection-item"><i class="material-icons">rss_feed</i>Mastodon</a></li>
+        <li><a href="http://www.tiktok.com/@fiulo" class="collection-item"><i class="material-icons">music_note</i>TikTok</a></li>
+        <li><a href="http://www.instagram.com/mr_fiulo/" class="collection-item"><i class="material-icons">photo_camera</i>Instagram</a></li>
+        <li><a href="http://x.com/MrFiulo" class="collection-item"><i class="material-icons">flutter_dash</i>X (Twitter)</a></li>
+        <li><a href="http://www.tumblr.com/fiulo" class="collection-item"><i class="material-icons">text_snippet</i>Tumblr</a></li>
+        <li><a href="http://www.threads.net/@mr_fiulo" class="collection-item"><i class="material-icons">forum</i>Threads</a></li>
+        <li><a href="https://bsky.app/profile/fiulo.bsky.social" class="collection-item"><i class="material-icons">cloud</i>Bluesky</a></li>
+        <li><a href="http://mastodon.social/@fiulo" class="collection-item"><i class="material-icons">rss_feed</i>Mastodon</a></li>
       </ul>
     </section>
 
@@ -213,9 +215,9 @@
       <h2 class="section-title">Blogs</h2>
       <ul class="collection">
         <li><a href="https://blog.fiulo.com/" class="collection-item"><i class="material-icons">article</i>Main Blog</a></li>
-        <a href="https://comics.fiulo.com/" class="collection-item"><i class="material-icons">book</i>Comics Blog</a></li>
-        <a href="https://fiction.fiulo.com/" class="collection-item"><i class="material-icons">menu_book</i>Fiction Blog</a></li>
-        <a href="https://recipes.fiulo.com/" class="collection-item"><i class="material-icons">restaurant_menu</i>Recipes Blog</a></li>
+        <li><a href="https://comics.fiulo.com/" class="collection-item"><i class="material-icons">book</i>Comics Blog</a></li>
+        <li><a href="https://fiction.fiulo.com/" class="collection-item"><i class="material-icons">menu_book</i>Fiction Blog</a></li>
+        <li><a href="https://recipes.fiulo.com/" class="collection-item"><i class="material-icons">restaurant_menu</i>Recipes Blog</a></li>
       </ul>
     </section>
 
@@ -223,11 +225,28 @@
       <h2 class="section-title">Projects</h2>
       <ul class="collection">
         <li><a href="https://www.deviantart.com/fiulo" class="collection-item"><i class="material-icons">brush</i>DeviantArt</a></li>
-        <a href="https://www.webtoons.com/en/creator/fiulo" class="collection-item"><i class="material-icons">web</i>Webtoons</a></li>
-        <a href="https://www.wattpad.com/user/MrFiulo" class="collection-item"><i class="material-icons">edit</i>WattPad</a></li>
-        <a href="https://soundcloud.com/user-135417535-643021719" class="collection-item"><i class="material-icons">audiotrack</i>SoundCloud</a></li>
+        <li><a href="https://www.webtoons.com/en/creator/fiulo" class="collection-item"><i class="material-icons">web</i>Webtoons</a></li>
+        <li><a href="https://www.wattpad.com/user/MrFiulo" class="collection-item"><i class="material-icons">edit</i>WattPad</a></li>
+        <li><a href="https://soundcloud.com/user-135417535-643021719" class="collection-item"><i class="material-icons">audiotrack</i>SoundCloud</a></li>
       </ul>
     </section>
+  </div>
+
+  <div id="about" class="container">
+    <h2 class="section-title">About Me</h2>
+    <p>Fiulo is a digital artist, AI storyteller, and multilingual communicator. He creates engaging stories, art, and experiences that inspire and educate people around the world.</p>
+    <p>With a passion for innovation and creativity, Fiulo uses cutting-edge technologies like AI and machine learning to craft unique and immersive stories. His work spans multiple mediums, including digital art, comics, fiction, and music.</p>
+    <p>Fiulo's goal is to make a positive impact on people's lives through his art and stories. He believes in the power of creativity to bring people together and inspire positive change.</p>
+  </div>
+
+  <div id="contact" class="container">
+    <h2 class="section-title">Contact Me</h2>
+    <p>If you have any questions, comments, or would like to collaborate on a project, please don't hesitate to reach out. You can contact me through the following channels:</p>
+    <ul>
+      <!-- <li>Email: [your email address]</li> -->
+      <li>Twitter: @MrFiulo</li>
+      <li>Instagram: @mr_fiulo</li>
+    </ul>
   </div>
 
   <footer>
@@ -251,6 +270,17 @@
       } else {
         scrollDown.style.display = 'block'; // Show it again when scrolled to the top
       }
+    });
+
+    // Add event listeners to the nav links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
     });
   </script>
 </body>
